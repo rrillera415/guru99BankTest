@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Group of group Suite" verbose="1">
+	<parameter name="BrowserName" value="firefox" />
+	<parameter name="sUsername" value="ryan.rillera@gmail.com" />
+	<parameter name="sPassword" value="KLYzk2C," />
+	<parameter name="sFirstName" value="Ryan" />
+	<parameter name="sLastName" value="Rillera" />
+	<parameter name="sMobileEmail" value="408-636-3502" />
+	<parameter name="sPasswordSignup" value="password" />
+
+
+	<!-- <test name="SimpleParamExample">
+		<classes>
+			<class name="com.facebook.test.TestHomePage">
+				<methods>
+					<include name="verifyTextforCreateNewAccountOf" />
+					<include name="testUserLogin" />
+					<include name="testFaceBookTitleOnPageLoad" />
+					<include name="verifyTextforConnectWithFriends" /> 
+					<include name="verifyForgotAccountLink" />
+							<include name="testUserSignup" />
+				</methods>
+			</class>
+		</classes>
+	</test> -->
+	
+	<test name="Guru99Example">
+		<classes>
+			<class name="com.guru99.tests.test99GuruHomePage">
+				<methods>
+			<!-- 		<include name="verifyTextforCreateNewAccountOf" />
+					<include name="testUserLogin" />
+					<include name="testFaceBookTitleOnPageLoad" />
+					<include name="verifyTextforConnectWithFriends" /> 
+					<include name="verifyForgotAccountLink" /> -->
+							<include name="test_Home_Page_DashBoard_UserName" />
+							<include name="test_generate_access_header" />
+							<include name="test_getItemsSeleniumDropDown" />
+							<include name= "test_getItemsBankProjectDropDown" />
+							<include name= "test_clickAjaxDemo" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
