@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2018-04-21T13:29:51Z" name="Group of group Suite" finished-at="2018-04-21T13:30:02Z" duration-ms="10928">
+    <groups>
+    </groups>
+    <test started-at="2018-04-21T13:29:51Z" name="Guru99Example" finished-at="2018-04-21T13:30:02Z" duration-ms="10928">
+      <class name="com.guru99.tests.test99GuruHomePage">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:com.guru99.tests.test99GuruHomePage@f5958c9]" started-at="2018-04-21T13:29:51Z" name="setUp" finished-at="2018-04-21T13:29:59Z" duration-ms="8157" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="test_Home_Page_DashBoard_UserName()[pri:0, instance:com.guru99.tests.test99GuruHomePage@f5958c9]" started-at="2018-04-21T13:29:59Z" name="test_Home_Page_DashBoard_UserName" finished-at="2018-04-21T13:29:59Z" duration-ms="169" status="PASS">
+        </test-method>
+        <test-method signature="test_getItemsSeleniumDropDown()[pri:0, instance:com.guru99.tests.test99GuruHomePage@f5958c9]" started-at="2018-04-21T13:29:59Z" name="test_getItemsSeleniumDropDown" finished-at="2018-04-21T13:30:00Z" duration-ms="873" status="PASS">
+        </test-method>
+        <test-method signature="test_getItemsBankProjectDropDown()[pri:0, instance:com.guru99.tests.test99GuruHomePage@f5958c9]" started-at="2018-04-21T13:30:00Z" name="test_getItemsBankProjectDropDown" finished-at="2018-04-21T13:30:00Z" duration-ms="419" status="PASS">
+        </test-method>
+        <test-method signature="test_clickAjaxDemo()[pri:0, instance:com.guru99.tests.test99GuruHomePage@f5958c9]" started-at="2018-04-21T13:30:00Z" name="test_clickAjaxDemo" finished-at="2018-04-21T13:30:02Z" duration-ms="1288" status="PASS">
+        </test-method>
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.guru99.tests.test99GuruHomePage@f5958c9]" started-at="2018-04-21T13:30:02Z" name="teardown" finished-at="2018-04-21T13:30:02Z" duration-ms="1" status="PASS">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

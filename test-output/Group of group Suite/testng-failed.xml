@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Group of group Suite]">
+  <parameter name="BrowserName" value="firefox"/>
+  <parameter name="sMobileEmail" value="408-636-3502"/>
+  <parameter name="sFirstName" value="Ryan"/>
+  <parameter name="sUsername" value="ryan.rillera@gmail.com"/>
+  <parameter name="sPasswordSignup" value="password"/>
+  <parameter name="sLastName" value="Rillera"/>
+  <parameter name="sPassword" value="KLYzk2C,"/>
+  <test name="Guru99Example(failed)" preserve-order="true">
+    <parameter name="BrowserName" value="firefox"/>
+    <parameter name="sMobileEmail" value="408-636-3502"/>
+    <parameter name="sFirstName" value="Ryan"/>
+    <parameter name="sUsername" value="ryan.rillera@gmail.com"/>
+    <parameter name="sPasswordSignup" value="password"/>
+    <parameter name="sLastName" value="Rillera"/>
+    <parameter name="sPassword" value="KLYzk2C,"/>
+    <classes>
+      <class name="com.guru99.tests.test99GuruHomePage">
+        <methods>
+          <include name="test_Home_Page_DashBoard_UserName"/>
+          <include name="setUp"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
